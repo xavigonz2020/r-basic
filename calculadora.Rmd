@@ -1,0 +1,104 @@
+---
+title: "R Como calculadora"
+author: "xavigonz"
+date: "16/9/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Operaciones Básicas
+
+Suma
+
+```{r}
+suma = 2 + 3
+suma
+```
+
+Resta
+
+```{r}
+resta = 5 - 2
+resta
+```
+
+Producto
+
+```{r}
+producto = 5*3
+producto
+```
+
+Division
+```{r}
+div = 8/4
+div
+```
+
+Potencia
+```{r}
+pot = 5^2
+pot
+```
+
+Cociente entero
+```{r}
+cociente = 25%/%4
+cociente
+```
+
+Residuo
+```{r}
+residuo = 25%%4
+residuo
+```
+
+Valor de pi
+```{r}
+pi
+```
+
+Operaciones Combinadas
+Hallar en R : 3(5+5)/2
+```{r}
+op = 3*(5+5)/2
+op
+```
+
+Infinito positivo
+```{r}
+Inf
+```
+
+Infinito negativo
+```{r}
+-Inf
+```
+
+Valor desconocido
+```{r}
+NA
+```
+
+Indeterminado(no es un numero)
+```{r}
+ind = 0/0
+ind
+```
+
+Se corre la coma 15 espacios a la derecha 
+1125900000000000
+```{r}
+2^50
+```
+
+Se corre la coma 5 espacios a la izquierda
+0.00003051758
+```{r}
+2^-15
+```
+
+
